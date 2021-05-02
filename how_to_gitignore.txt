@@ -1,0 +1,23 @@
+git에서 repository 생성
+repository에서 넣고 싶은 폴더로 이동
+git bash 클릭
+git init 입력
+그다음 깃 허브에서 $ git remote add origin git@github.com:Balgeum-Cha/Study_python.gi
+복붙
+git add *
+git status
+git commit -m "initial"
+git push origin master
+비번 치고 입력 끝
+
+
+gitignore 파일을 만들어서
+.ipynb_checkpoints/
+fastcampus/
+와 같이 없애고 싶은 파일 이름 써주면 됨
+
+근데 txt 파일이면 안되므로
+git bash 에서 
+$ mv .gitignore.txt .gitignore
+로 입력 해주면 됩니다용
+
